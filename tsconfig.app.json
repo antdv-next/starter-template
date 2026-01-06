@@ -13,7 +13,6 @@
     "noUncheckedSideEffectImports": true
   },
   "files": [
-    "./types/antd.d.ts"
   ],
   "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"]
 }
