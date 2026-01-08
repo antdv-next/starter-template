@@ -15,8 +15,8 @@ importers:
         specifier: 1.0.0-alpha.1
         version: 1.0.0-alpha.1(vue@3.5.26(typescript@5.9.3))
       antdv-next:
-        specifier: 1.0.0-alpha.1
-        version: 1.0.0-alpha.1(vue@3.5.26(typescript@5.9.3))
+        specifier: 1.0.0-alpha.2
+        version: 1.0.0-alpha.2(vue@3.5.26(typescript@5.9.3))
       vue:
         specifier: ^3.5.24
         version: 3.5.26(typescript@5.9.3)
@@ -445,8 +445,8 @@ packages:
     peerDependencies:
       vue: ^3.0.0
 
-  '@v-c/picker@0.0.3':
-    resolution: {integrity: sha512-C982m/HrULt074RI1Tke6+Stk9NgFHJPRba4ru6RMroqrx5dRe9Yiq6HM0PuU7bx7vmplajTXpsuQZF8lzva/g==}
+  '@v-c/picker@0.0.4':
+    resolution: {integrity: sha512-U8GNEDDVMiLQGd0Wptz9yr5zZxp5oWdI6WeKZW6Rf2WGwdTO5IEZoFR/CaXL2/TmRVOKvpGbYHYeBH+fOJZdhQ==}
     peerDependencies:
       date-fns: '>= 2.x'
       dayjs: '>= 1.x'
@@ -693,8 +693,8 @@ packages:
   alien-signals@3.1.2:
     resolution: {integrity: sha512-d9dYqZTS90WLiU0I5c6DHj/HcKkF8ZyGN3G5x8wSbslulz70KOxaqCT0hQCo9KOyhVqzqGojvNdJXoTumZOtcw==}
 
-  antdv-next@1.0.0-alpha.1:
-    resolution: {integrity: sha512-GkBW5PXSTfocZdpt3+uJ3D/8h+9KWjCXWMVXVDnrKXwh0EVnbEFVQy6KYFjDSVNbNdil8srqbUCXU3A2qiby5w==}
+  antdv-next@1.0.0-alpha.2:
+    resolution: {integrity: sha512-6gLI4j0r4/R8aKDYwwEy4EqQmn9Iblr+tikIMiY0w1riR6HzaQlY6XcjVA/r7W1xEYcUmToENMLfcqikl0iLbg==}
 
   cac@6.7.14:
     resolution: {integrity: sha512-b6Ilus+c3RrdDk+JhLKUAQfzzgLEPy6wcXqS7f/xe1EETvsDP6GORG7SFuOs6cID5YkqchW/LXZbX5bc8j7ZcQ==}
@@ -1522,7 +1522,7 @@ snapshots:
       '@v-c/util': 1.0.6(vue@3.5.26(typescript@5.9.3))
       vue: 3.5.26(typescript@5.9.3)
 
-  '@v-c/picker@0.0.3(dayjs@1.11.19)(vue@3.5.26(typescript@5.9.3))':
+  '@v-c/picker@0.0.4(dayjs@1.11.19)(vue@3.5.26(typescript@5.9.3))':
     dependencies:
       '@v-c/overflow': 1.0.1(vue@3.5.26(typescript@5.9.3))
       '@v-c/trigger': 1.0.2(vue@3.5.26(typescript@5.9.3))
@@ -1803,7 +1803,7 @@ snapshots:
 
   alien-signals@3.1.2: {}
 
-  antdv-next@1.0.0-alpha.1(vue@3.5.26(typescript@5.9.3)):
+  antdv-next@1.0.0-alpha.2(vue@3.5.26(typescript@5.9.3)):
     dependencies:
       '@ant-design/colors': 7.2.1
       '@ant-design/fast-color': 3.0.0
@@ -1825,7 +1825,7 @@ snapshots:
       '@v-c/mutate-observer': 0.0.2(vue@3.5.26(typescript@5.9.3))
       '@v-c/notification': 0.0.2(vue@3.5.26(typescript@5.9.3))
       '@v-c/pagination': 0.0.1(vue@3.5.26(typescript@5.9.3))
-      '@v-c/picker': 0.0.3(dayjs@1.11.19)(vue@3.5.26(typescript@5.9.3))
+      '@v-c/picker': 0.0.4(dayjs@1.11.19)(vue@3.5.26(typescript@5.9.3))
       '@v-c/progress': 0.0.2(vue@3.5.26(typescript@5.9.3))
       '@v-c/qrcode': 0.0.5(vue@3.5.26(typescript@5.9.3))
       '@v-c/rate': 0.0.2(vue@3.5.26(typescript@5.9.3))
