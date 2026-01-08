@@ -42,6 +42,9 @@ importers:
       vite:
         specifier: npm:rolldown-vite@7.2.5
         version: rolldown-vite@7.2.5(@types/node@24.10.4)(jiti@2.6.1)
+      vite-plugin-dayjs:
+        specifier: ^1.0.0
+        version: 1.0.0
       vue-tsc:
         specifier: ^3.1.4
         version: 3.2.2(typescript@5.9.3)
@@ -1038,6 +1041,9 @@ packages:
   unplugin-utils@0.3.1:
     resolution: {integrity: sha512-5lWVjgi6vuHhJ526bI4nlCOmkCIF3nnfXkCMDeMJrtdvxTs6ZFCM8oNufGTsDbKv/tJ/xj8RpvXjRuPBZJuJog==}
     engines: {node: '>=20.19.0'}
+
+  vite-plugin-dayjs@1.0.0:
+    resolution: {integrity: sha512-XV577Qe/8udq9dl7MwQfwkEokyoCDjbhvrRF1DLHyndmL7wOLjhn/KcMy4NlfVa7uwI/bh440cVDMUebNuoAvw==}
 
   vscode-uri@3.1.0:
     resolution: {integrity: sha512-/BpdSx+yCQGnCvecbyXdxHDkuk55/G3xwnC0GqY4gmQ3j+A+g8kzzgB4Nk/SINjqn6+waqw3EgbVF2QKExkRxQ==}
@@ -2138,6 +2144,8 @@ snapshots:
     dependencies:
       pathe: 2.0.3
       picomatch: 4.0.3
+
+  vite-plugin-dayjs@1.0.0: {}
 
   vscode-uri@3.1.0: {}
 
