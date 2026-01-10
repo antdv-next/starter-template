@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import { AimOutlined } from "@antdv-next/icons"
+import { shallowRef } from "vue";
+const date = shallowRef()
 </script>
 
 <template>
@@ -10,6 +12,7 @@ import { AimOutlined } from "@antdv-next/icons"
       <a-button type="primary">测试</a-button>
       <a-divider />
       <a-alert type="info" message="This is an info alert" show-icon></a-alert>
+      <a-date-picker v-model:value="date"></a-date-picker>
     </a-app>
   </div>
 </template>
