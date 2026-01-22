@@ -11,8 +11,11 @@ const date = shallowRef()
       <AimOutlined />
       <a-button type="primary">测试</a-button>
       <a-divider />
-      <a-alert type="info" message="This is an info alert" show-icon></a-alert>
+      <a-alert type="info" message="This is an info alert" :show-icon="true"></a-alert>
       <a-date-picker v-model:value="date"></a-date-picker>
+      <a-flex gap="12px" wrap>
+        <!--        -->
+      </a-flex>
     </a-app>
   </div>
 </template>
